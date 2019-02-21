@@ -4,7 +4,7 @@ int main()
   int n,m,i;
   scanf("%d%d",&n,&m);
   if(m<=10000&&n<=10000){
-    for(i=n;i<=m;i++)
+    for(i=n+1;i<m;i++)
     {
       if(i%2!=0)
       {
